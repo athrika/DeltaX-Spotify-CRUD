@@ -1,0 +1,46 @@
+table {
+    border-collapse: collapse;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+tr {
+    display: flex;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+th {
+    background-color: rgb(171, 171, 171);
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    flex: 1;
+}
+
+.addsong {
+    font-weight: 900px;
+}
+
+.homelinks {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 200px;
+}
+  
+.button {
+    background: none;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 10px;
+}
+  
+  
