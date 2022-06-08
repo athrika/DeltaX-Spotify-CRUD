@@ -1,0 +1,9 @@
+CREATE SCHEMA `spo` ;
+
+CREATE TABLE `spo`.`new_table` (
+  `id` INT UNSIGNED NOT NULL,
+  `song` VARCHAR(45) NOT NULL,
+  `dateofrelease` VARCHAR(45) NOT NULL,
+  `artists` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`));
+
